@@ -14,6 +14,17 @@ cd react-app
 * **Dockerfile** for docker image creation
 * **.dockerignore** to exclude unnecessary files (`node_modules`, `build`, etc.).
 * Create a **nginx folder** and create 2 files inside: **default.conf** and **nginx.conf**
+* All above files are added in this repo and **.dockerignore** is given here:
+
+```bash
+node_modules
+build
+.git
+Dockerfile
+docker-compose.yml
+*.log
+```
+  
 
 ---
 
